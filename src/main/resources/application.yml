@@ -30,3 +30,16 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+# OKTA properties
+okta:
+  oauth2:
+    issuer: https://dev-47763722.okta.com/oauth2/default
+    audience: api://default
+    client-id: 0oaiji83as1oAUZiN5d7
+    client-secret: KYIe77HiSDseYmm3DHjFpG8AkpJqd5JH3ShDkhOSH3Qb0g8Jlq0BXGYv6LQR1y9g
+    scopes: openid, profile, email, offline_access
+
+# Properties on Okta - Our API Gateway is running on 9094
+# sign-in redirectURL - http://localhost:9094/login/oauth2/code/okta
+# sign-out redirectURL - http://localhost:9094

@@ -54,16 +54,16 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- Okta dependencies-->		
-<!--	    <dependency>-->
-<!--	      <groupId>org.springframework.boot</groupId>-->
-<!--	      <artifactId>spring-boot-starter-security</artifactId>-->
-<!--	    </dependency>-->
-<!--	    <dependency>-->
-<!--	      <groupId>com.okta.spring</groupId>-->
-<!--	      <artifactId>okta-spring-boot-starter</artifactId>-->
-<!--	      <version>2.1.6</version>-->
-<!--	    </dependency>-->
+		<!-- Okta dependencies-->
+	    <dependency>
+	      <groupId>org.springframework.boot</groupId>
+	      <artifactId>spring-boot-starter-security</artifactId>
+	    </dependency>
+	    <dependency>
+	      <groupId>com.okta.spring</groupId>
+	      <artifactId>okta-spring-boot-starter</artifactId>
+	      <version>2.1.6</version>
+	    </dependency>
 
 	</dependencies>
 	<dependencyManagement>
